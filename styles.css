@@ -159,7 +159,7 @@ h1 {
 .transform {
   display: flex;
   flex-direction: column;
-  height: 33.3rem;
+  height: 43.3rem;
   min-height: 50%;
   background-color: var(--container-bg);
 }
@@ -167,7 +167,7 @@ h1 {
 .standout-section {
   display: flex;
   flex-direction: column;
-  height: 33.3rem;
+  height: 43.3rem;
   min-height: 50%;
   background-color: var(--container-bg);
 }
@@ -375,9 +375,11 @@ h1 {
 /* Image Grid */
 .image-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  height: 50rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 20rem;
   width: 100%;
+  
 }
 .milk {
   background-image: url("images/mobile/image-gallery-milkbottles.jpg");
